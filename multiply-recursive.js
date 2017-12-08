@@ -11,7 +11,7 @@
  */
 
 // Your code :
-
+const miltiplyRecursive = (c,d) => Math.imul(c,d) 
 //* Begin of tests
 const assert = require('assert')
 
@@ -20,12 +20,12 @@ assert.strictEqual(multiply.length, 2)
 assert.strictEqual(multiply.toString().includes('Math.imul'), false)
 assert.strictEqual(multiply.toString().includes('while'), false)
 assert.strictEqual(multiply.toString().includes('for'), false)
-assert.strictEqual(multiply.toString().includes('*'), false)
+assert.strictEqual(multiply.toString().includes('*'), false) 
 assert.strictEqual(multiply.toString().includes('/'), false)
 assert.strictEqual(multiply(34, 78), 2652)
 assert.strictEqual(multiply(123, 0), 0)
 assert.strictEqual(multiply(0, -230), 0)
-assert.strictEqual(multiply(0, 0), 0)
+assert.strictEqual(multiply(0, 0), 0)i
 assert.strictEqual(multiply(123, -22), -2706)
 assert.strictEqual(multiply(-22, 123), -2706)
 assert.strictEqual(multiply(-22, -123), 2706)

@@ -1,6 +1,6 @@
 'use strict'
 
-/*
+/**
  * Create a constant variables for each primitives
  * `str`, `num`, `bool` and `undef`
  *
@@ -9,9 +9,14 @@
  */
 
 // Your code :
+const str = '1337'
+const num = 42
+const bool = false
+const undef = undefined
 
+console.log(str)
 //* Begin of tests
-const assert = require('assert')
+/**const assert = require('assert')
 
 assert.strictEqual(typeof str, 'string')
 assert.strictEqual(str, '1337')

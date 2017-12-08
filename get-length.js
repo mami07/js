@@ -9,7 +9,7 @@
  */
 
 // Your code :
-
+const getLength = table => table.length
 //* Begin of tests
 const assert = require('assert')
 

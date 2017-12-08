@@ -10,8 +10,19 @@
  */
 
 // Your code :
+const multiply = (a, b) => {
+  let resultat = 0
+  let count = 0
 
-//* Begin of tests
+  while (count < Math.abs(b)) {
+    resultat = resultat + Math.abs(a)
+    count++
+  }
+  resultat = Math.sign(a) === Math.sign(b) ? resultat : -resultat
+
+  return resultat
+}
+
 const assert = require('assert')
 
 assert.strictEqual(typeof multiply, 'function')

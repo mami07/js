@@ -7,7 +7,7 @@
  * @notions Data-Structures, Get
  * @next get-last
  */
-
+const getFirst = nane => nane[0]
 // Your code :
 
 //* Begin of tests

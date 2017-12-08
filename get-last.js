@@ -9,7 +9,9 @@
  */
 
 // Your code :
+const getLast = ami => ami[ami.length - 1]
 
+console.log(getLast('doumbi'))
 //* Begin of tests
 const assert = require('assert')
 
