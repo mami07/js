@@ -10,6 +10,7 @@
  */
 
 // Your code :
+<<<<<<< Updated upstream
 const multiply = (a, b) => {
   let resultat = 0
   let count = 0
@@ -22,6 +23,9 @@ const multiply = (a, b) => {
 
   return resultat
 }
+=======
+const multiply = (a, b) => math.imul(a, b)
+>>>>>>> Stashed changes
 
 const assert = require('assert')
 
